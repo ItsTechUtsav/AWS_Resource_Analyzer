@@ -187,4 +187,4 @@ def generate_html_report(ec2, ebs, eips, snapshots):
 
         file.write(html)
 
-    print("HTML Report Generated Successfully!")
+    print("Report Generated Successfully!")
