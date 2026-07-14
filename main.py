@@ -2,8 +2,8 @@ from detectors.ec2 import scan_ec2
 from detectors.ebs import scan_ebs
 from detectors.eip import scan_eip
 from detectors.snapshots import scan_snapshots
-
 from reports.html_report import generate_html_report
+from mail.email_sender import send_email
 
 
 ec2_data = scan_ec2()
@@ -23,3 +23,5 @@ generate_html_report(
     snapshot_data
 
 )
+
+send_email()
