@@ -1,9 +1,11 @@
 import smtplib
 from email.message import EmailMessage
+from dotenv import load_dotenv
 import os
 
 
 def send_email():
+    load_dotenv()
 
     sender_email = os.getenv("EMAIL")
     receiver_email = os.getenv("RECEIVER_EMAIL")
