@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "30 3 * * *"
 
 jobs:
 
@@ -36,3 +36,9 @@ jobs:
       - name: Run Project
         run: |
           python main.py
+
+      - name: Upload HTML Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: aws-cost-report
+          path: reports/report.html
