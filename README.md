@@ -209,8 +209,18 @@ for:
 
 # 📸 Screenshots
 
+## GitHub Actions Pipeline
+
+![GitHub Actions Workflow](screenshots/workflow.png)
 
 ---
+
+## HTML Report
+
+![HTML Report](screenshots/report.png)
+
+---
+
 
 # 🔮 Future Enhancements
 

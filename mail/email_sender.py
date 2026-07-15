@@ -21,12 +21,10 @@ def send_email():
 
     message.set_content(
         """
-Hello,
+Hello Utsav,
 
-Today's AWS Cost Optimization Report is attached.
+Today's AWS Cost Optimization Report is here.
 
-Regards,
-AWS Cost Optimizer
 """
     )
 
